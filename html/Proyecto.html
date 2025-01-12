@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventuras en la Amazonia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coiny&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#intro">Inicio</a></li>
+                <li><a href="#atractivos">Atractivos Principales</a></li>
+                <li><a href="#informacion">Informacion Importante</a></li>
+                <li><a href="#contacto">Contáctanos</a></li>
+            </ul>
+        </nav>
+        <h1 style="color:#3f1ed2; text-align:center;"> Aventuras en la Amazonia</h1>
+        <img src="https://www.raisg.org/wp-content/uploads/2022/01/1-raisg-11.jpg" alt="Imagen de la selva amazónica">
+
+    </header>
+    
+    <main>
+        <section id="intro">
+            <h2>Descubriendo  la Magia de la Amazonia</h2>
+            <p> Conociendo la biodiversidad y la cultura de la selva amazónica, una experiencia inolvidable que te conectará con la naturaleza.
+                La Amazonia es una selva tropical que se desarrolla alrededor del río Amazonas y su cuenca fluvial. Es la selva tropical más grande del mundo y uno de los ecosistemas con mayor biodiversidad.
+                La Amazonia es una región de América del Sur que abarca nueve países: Brasil, Perú, Colombia, Venezuela, Ecuador, Bolivia, Guyana, Surinam y la Guayana Francesa. Se caracteriza por su rica biodiversidad, con una gran cantidad de especies de plantas, animales y microorganismos. La selva amazónica es el bosque tropical más grande del mundo, y alberga alrededor del 10% de las especies conocidas del planeta.
+            </p>
+        </section>
+        <br><br>
+        <section id="atractivos">
+            <h2>Atractivos Principales</h2>
+            <ul>
+                <li>Flora y fauna exótica 
+                    <button><a href="https://www.yoiecotours.com/esp/fauna.html"> Biodiversidad</a></button>
+                </li><br>
+                <li>Comunidades indígenas
+                    <button><a href="https://www.survival.es/sobre/indigenasamazonicos"> Culturas</a></button>
+                </li><br>
+                <li>Ríos caudalosos y cascadas
+                    <button><a href="https://amazonfrontlines.org/es/chronicles/la-amazonia-una-selva-de-rios/"> Hidrologia</a></button>
+                </li><br>
+                <li>Caminatas por la selva
+                    <button><a href="https://www.civitatis.com/es/leticia/senderismo-selva-amazonica/?srsltid=AfmBOoqKpCPpHWNRelduTB0IIneasq2wTy2xTL-OikZOLkWp2QwPpHlA">Senderismo</a></button>
+                </li><br>
+                <li>Observación de aves
+                    <button><a href="https://colombia.travel/es/amazonas/avistamiento-de-aves-en-el-amazonas"> Avistamiento</a></button>
+                </li><br>
+            </ul>
+        </section>
+        <br><br>
+        <section id="informacion">
+            <h2>Información Importante</h2>
+            <br>
+            <table align="center" width="80%"  .bg-Info bgcolor="#17a2b8" cellspacing="7" cellpadding="15">
+                <colgroup span="3" width="60%"></colgroup>
+                
+                <tr>
+                    <th>Temporada</th>
+                    <th>Clima</th>
+                    <th>Recomendaciones</th>
+                </tr>
+                <tr>
+                    <td>Enero - Abril</td>
+                    <td>Húmedo y lluvioso</td>
+                    <td>Llevar ropa ligera e impermeable</td>
+                </tr>
+                <tr>
+                    <td>Mayo - Diciembre</td>
+                    <td>Seco y soleado</td>
+                    <td>Llevar protector solar y repelente</td>
+                </tr>
+            </table>
+        </section>
+        <br>
+        
+        <section id="Galeria"> 
+            
+            <button id="toggle-imagen"> Imagenes</button>
+            <div id="imagen-extra" style="display:none;">
+                <p>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsEy9RCvL21fozSmByVBIaXAVgLvCuAfI9FA&usqp=CAU" alt="Imagen1" class="imagen-item"> 
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2JxX-ItIrd3LBwd0qHUVhbZcrS47O-bhzCQ&usqp=CAU" alt="Imagen2" class="imagen-item"> 
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6EI6R_UEOOZGlghMo_7zbNZuMRzWqax8CoQ&usqp=CAU" alt="Imagen3" class="imagen-item">
+                </p>    
+            </div>  
+        </section>
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <h4 style="color: brown;">¿Te gustaría vivir una aventura inolvidable en la Amazonia? ¡Dejanos tu información!</h4>
+            <form action="#">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required>
+                <br><br>
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje"required></textarea>
+                <br><br>
+                <button type="submit">Enviar</button>
+            </form>
+            <br><br>
+            <a href="mailto:viajando@amazonia.com">viajando@amazonia.com</a>
+            <a href="tel:+57321999999">+57 321 999-999</a>
+        </section>
+    </main>
+    <br><br>
+
+    <footer>
+        <p style="color: darkmagenta;"> &copy; 2025 Aventura en la Amazonia</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+<git class="init"></git>
